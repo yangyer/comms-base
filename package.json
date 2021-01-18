@@ -1,0 +1,24 @@
+{
+  "name": "comm-base",
+  "version": "1.0.0",
+  "description": "base lib for creating web socket server/client",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "rm -rf ./dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangyer/comms-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangyer/comms-base/issues"
+  },
+  "homepage": "https://github.com/yangyer/comms-base#readme",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  }
+}
